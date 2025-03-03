@@ -1,66 +1,13 @@
-## Foundry
+## Game of Chance
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**A transparent and secure lottery system built on Ethereum using Solidity and the Foundry framework. This project leverages Chainlink VRF for verifiable and tamper-proof random number generation, ensuring fairness and trustlessness.**
 
-Foundry consists of:
+## Features
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+### Smart Contract Lottery
 
-## Documentation
+Participate in a decentralized lottery system where all rules and transactions are governed by transparent and immutable smart contracts. The lottery ensures fairness by automating the entire process, from ticket purchases to winner selection, without the need for intermediaries. Built on Ethereum, this system provides a trustless and secure environment for users to engage in the lottery.
 
-https://book.getfoundry.sh/
+### Chainlink VRF
 
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+The lottery leverages Chainlink's Verifiable Random Function (VRF) to generate tamper-proof and verifiable random numbers, ensuring complete fairness in winner selection. Chainlink VRF provides cryptographic proof that the randomness is unbiased and cannot be manipulated by any party. This integration guarantees trust and transparency, making the lottery truly decentralized and reliable
